@@ -22,7 +22,7 @@
                        <div class="collapse navbar-collapse justify-content-end" id="myNavBar">
                            <ul class="navbar-nav">
                                <li class="nav-item">
-                                   <a class="nav-link text-primary" href="/">Homepage</a>
+                                   <a class="nav-link text-primary" href="/"><u>Homepage</u></a>
                                </li>
                                <li class="nav-item">
                                    <a class="nav-link text-white" href="formulaire.php"><u>Nouvelle publication</u></a>
