@@ -10,10 +10,11 @@ body {
 */
 .navbar img {
     max-height: 80px;
+    
 }
 
 
 .thumbnail img {
-    max-width: 600px;
+    max-width: 550px;
     margin: 30px;
 }

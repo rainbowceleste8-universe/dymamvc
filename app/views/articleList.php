@@ -4,10 +4,10 @@ include('includes/header.inc.php');
 
    
         <div class="container p-4 my-3">
-            <h1 class="text-primary text-center p-4">Liste des Articles</h1>
+            <h1 class="text-primary text-center p-4"><u>Liste des Articles</u></h1>
+                <br>
                 <div class="d-flex">
-                
-                <img class="rounded" src="/images/gouttes-eau-dans-goutte-eau_1051578-145899.jpg"/>
+                <img class="rounded" src="/images/Himitsu-no-AIPRI-Design-Works-Book-Japan-2025.webp"/>
                 <div class="p-4 card text-bg-info">
                     <a href="/formulaire.php">Publier un nouvel article</a>
                     <div class="row">
@@ -36,4 +36,5 @@ include('includes/header.inc.php');
     <?php
 include('includes/footer.inc.php');
 ?>
+                
                     

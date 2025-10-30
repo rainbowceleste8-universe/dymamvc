@@ -5,9 +5,11 @@ include('includes/header.inc.php');
 </head>
     <body>
         <div class="container p-4">
-            <h1 class="text-center text-primary">Nouvelle publication</h1>
+            <h1 class="text-center text-primary"><u>Nouvelle publication</u></h1>
                 <form class="list-group m-4" method="POST" action="/add" enctype="multipart/form-data">
-                    <input type="text" name="articleTitre" placeholder="Titre du nouvel article"/><br>
+                    <br>
+                    <input type="text" name="articleTitre" placeholder="Titre du nouvel article"/>
+                    <br>
                     <textarea name="articleContenu" placeholder="Contenu du nouvel article"></textarea>
                     <br>
                     <input type="file" id="photo_intro" name="photo_intro" class="d-none"/>
@@ -16,12 +18,12 @@ include('includes/header.inc.php');
                         <img src="" class="img-fluid"/>
                         <div id="img-name"></div>
                     </div>
-                    <br>
-                    <br>
                     <button class="btn btn-primary">Envoyer</button>
                 </form>
-            
         </div>
+            
+                    
+                    
 
             
 
