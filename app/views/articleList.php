@@ -8,9 +8,9 @@ include('includes/header.inc.php');
                 <br>
                 <div class="d-flex">
                 <img class="rounded" src="/images/Himitsu-no-AIPRI-Design-Works-Book-Japan-2025.webp"/>
-                <div class="p-4 card text-bg-info">
-                    <a href="/formulaire.php">Publier un nouvel article</a>
-                    <div class="row">
+                    <div class="p-4 card text-bg-info">
+                        <a href="/formulaire.php">Publier un nouvel article</a>
+                        <div class="row">
                         <?php
                         foreach ($articles as $article) {
                         ?>
