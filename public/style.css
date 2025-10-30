@@ -1,0 +1,19 @@
+body {
+    background-color: aqua!important;
+}
+/* variable importante charte graphique
+:root {
+    --couleur-primaire: #d1d1d1;
+    --bordures: #d1d1d1;
+    --image-background-site: url;
+}
+*/
+.navbar img {
+    max-height: 80px;
+}
+
+
+.thumbnail img {
+    max-width: 600px;
+    margin: 30px;
+}
